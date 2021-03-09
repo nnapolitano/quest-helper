@@ -467,7 +467,6 @@ public class QuestOverviewPanel extends JPanel
 				wikiBtn.setForeground(Color.blue.brighter().brighter().brighter());
 				wikiBtn.setText("<html><body style = 'text-decoration:underline'>" + quest.getQuest().getName() + " Wiki </body></html>");
 			}
-
 			public void mouseExited(java.awt.event.MouseEvent evt) {
 				wikiBtn.setForeground(Color.white);
 				wikiBtn.setText("<html><body>" + quest.getQuest().getName() + " Wiki </body></html>");
