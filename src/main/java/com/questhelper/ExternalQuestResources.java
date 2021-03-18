@@ -190,3 +190,4 @@ public enum ExternalQuestResources {
 
     private final String wikiURL;
 }
+
